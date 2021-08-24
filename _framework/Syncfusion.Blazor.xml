@@ -33342,7 +33342,7 @@
             Gets or sets the height of the element.
             </summary>
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.ICommonElement.RotateAngle">
+        <member name="P:Syncfusion.Blazor.Diagram.ICommonElement.RotationAngle">
             <summary>
             Gets or sets the rotate angle of the element.
             </summary>
@@ -33400,11 +33400,6 @@
         <member name="P:Syncfusion.Blazor.Diagram.ICommonElement.ParentTransform">
             <summary>
             Gets or sets the rotate angle that is set to the immediate parent of the element.
-            </summary>
-        </member>
-        <member name="P:Syncfusion.Blazor.Diagram.ICommonElement.IsSvgRender">
-            <summary>
-            Gets or sets the boolean value for the element.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Diagram.ICommonElement.Bounds">
@@ -33831,16 +33826,6 @@
             Defines the background color and image of diagram
             </summary>
         </member>
-        <member name="T:Syncfusion.Blazor.Diagram.AutoScrollBorder">
-            <summary>
-            Sets the border for the auto scroll of the diagram
-            </summary>
-        </member>
-        <member name="T:Syncfusion.Blazor.Diagram.AutoScrollPadding">
-            <summary>
-            Sets the padding for the auto scroll of the diagram
-            </summary>
-        </member>
         <member name="T:Syncfusion.Blazor.Diagram.ScrollableArea">
             <summary>
             Sets the padding for the auto scroll of the diagram
@@ -33919,16 +33904,6 @@
         <member name="P:Syncfusion.Blazor.Diagram.ScrollSettings.CanAutoScroll">
             <summary>
             Enables or Disables the auto scroll option
-            </summary>
-        </member>
-        <member name="P:Syncfusion.Blazor.Diagram.ScrollSettings.AutoScrollBorder">
-            <summary>
-            Defines the maximum distance to be left between the object and the scroll bar to trigger auto scrolling
-            </summary>
-        </member>
-        <member name="P:Syncfusion.Blazor.Diagram.ScrollSettings.AutoScrollPadding">
-            <summary>
-            Defines the maximum distance to be left between the object and the edge of the page.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Diagram.GridLines.LineColor">
@@ -35186,21 +35161,6 @@
             Sets the direction of the connector segment direction to Bottom.
             </summary>
         </member>
-        <member name="T:Syncfusion.Blazor.Diagram.AnnotationType">
-            <summary>
-            Specifies the type of annotation template
-            </summary>
-        </member>
-        <member name="F:Syncfusion.Blazor.Diagram.AnnotationType.String">
-            <summary>
-            Specifies that the annotation will be string content.
-            </summary>
-        </member>
-        <member name="F:Syncfusion.Blazor.Diagram.AnnotationType.Template">
-            <summary>
-            Specifies that the annotation user defined Html template.
-            </summary>
-        </member>
         <member name="T:Syncfusion.Blazor.Diagram.AnnotationConstraints">
             <summary>
             Annotation constraints control the features and behaviors of the annotations.
@@ -35219,21 +35179,6 @@
         <member name="F:Syncfusion.Blazor.Diagram.AnnotationConstraints.InheritReadOnly">
             <summary>
             Enables or disables the user to inherit the ReadOnly option from the parent.
-            </summary>
-        </member>
-        <member name="T:Syncfusion.Blazor.Diagram.AnnotationTypes">
-            <summary>
-            Specifies the user to define the type of annotation.
-            </summary>
-        </member>
-        <member name="F:Syncfusion.Blazor.Diagram.AnnotationTypes.Shape">
-            <summary>
-            Sets the annotation type as Path.
-            </summary>
-        </member>
-        <member name="F:Syncfusion.Blazor.Diagram.AnnotationTypes.Path">
-            <summary>
-            Sets the annotation type as Shape.
             </summary>
         </member>
         <member name="T:Syncfusion.Blazor.Diagram.AnnotationAlignment">
@@ -36446,32 +36391,32 @@
             Sets the type of the connection shape as UMLClassifier
             </summary>
         </member>
-        <member name="T:Syncfusion.Blazor.Diagram.BranchTypes">
+        <member name="T:Syncfusion.Blazor.Diagram.BranchType">
             <summary>
             Defines the Alignment position
             </summary>
         </member>
-        <member name="F:Syncfusion.Blazor.Diagram.BranchTypes.Left">
+        <member name="F:Syncfusion.Blazor.Diagram.BranchType.Left">
             <summary>
             Left - Sets the branch type as Left
             </summary>
         </member>
-        <member name="F:Syncfusion.Blazor.Diagram.BranchTypes.Right">
+        <member name="F:Syncfusion.Blazor.Diagram.BranchType.Right">
             <summary>
             Right - Sets the branch type as Right
             </summary>
         </member>
-        <member name="F:Syncfusion.Blazor.Diagram.BranchTypes.SubLeft">
+        <member name="F:Syncfusion.Blazor.Diagram.BranchType.SubLeft">
             <summary>
             SubLeft - Sets the branch type as SubLeft
             </summary>
         </member>
-        <member name="F:Syncfusion.Blazor.Diagram.BranchTypes.SubRight">
+        <member name="F:Syncfusion.Blazor.Diagram.BranchType.SubRight">
             <summary>
             SubRight - Sets the branch type as SubRight
             </summary>
         </member>
-        <member name="F:Syncfusion.Blazor.Diagram.BranchTypes.Root">
+        <member name="F:Syncfusion.Blazor.Diagram.BranchType.Root">
             <summary>
             Sets the branch type as Root
             </summary>
@@ -37682,7 +37627,7 @@
             Gets the height for diagram element. 
             </summary>
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.ChangedValues.RotateAngle">
+        <member name="P:Syncfusion.Blazor.Diagram.ChangedValues.RotationAngle">
             <summary>
             Gets the RotateAngle for diagram element. 
             </summary>
@@ -39021,16 +38966,6 @@
             Sets the textual description of the node/connector
             </summary>
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Annotation.Template">
-            <summary>
-            Sets the textual description of the node/connector
-            </summary>
-        </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Annotation.AnnotationType">
-            <summary>
-            Defines the type of annotation template
-            </summary>
-        </member>
         <member name="P:Syncfusion.Blazor.Diagram.Annotation.Visibility">
             <summary>
             Defines the visibility of the label
@@ -39056,7 +38991,7 @@
             Sets the height of the text
             </summary>
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Annotation.RotateAngle">
+        <member name="P:Syncfusion.Blazor.Diagram.Annotation.RotationAngle">
             <summary>
             Sets the rotate angle of the text
             </summary>
@@ -39084,11 +39019,6 @@
         <member name="P:Syncfusion.Blazor.Diagram.Annotation.DragLimit">
             <summary>
             Sets the space to be left between an annotation and its parent node/connector
-            </summary>
-        </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Annotation.Type">
-            <summary>
-            Sets the type of the annotation
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Diagram.Annotation.AddInfo">
@@ -39186,7 +39116,7 @@
             Sets the maximum height of the node
             </summary>
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Node.RotateAngle">
+        <member name="P:Syncfusion.Blazor.Diagram.Node.RotationAngle">
             <summary>
             Sets the rotate angle of the node
             </summary>
@@ -39747,7 +39677,7 @@
             Gets or sets the position of the node on Y-Axis.
             </summary>  
         </member>
-        <member name="P:Syncfusion.Blazor.Diagram.Selector.RotateAngle">
+        <member name="P:Syncfusion.Blazor.Diagram.Selector.RotationAngle">
             <summary>
             Gets or sets the angle to which the node should be rotated.
             </summary>  
@@ -47604,12 +47534,12 @@
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.BreadcrumbItem.Url">
             <summary>
-            Specifies the Url of the Breadcrumb item and that will be activated while click.
+            Specifies the URL of the Breadcrumb item that will be activated when clicked.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.BreadcrumbItem.IconCss">
             <summary>
-            Defines class/multiple classes separated by a space for the item that is used to include an icon.
+            Defines a class/multiple classes separated by a space for the item that is used to include an icon.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.BreadcrumbItem.HtmlAttributes">
@@ -47626,12 +47556,12 @@
         </member>
         <member name="T:Syncfusion.Blazor.Navigations.BreadcrumbTemplates">
             <summary>
-            To specify item and separator template for Breadcrumb items.
+            To specify the item and separator template for Breadcrumb items.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.BreadcrumbTemplates.ItemTemplate">
             <summary>
-            Defines the Breadcrumb component item template.Here, context refers to current Breadcrumb item.
+            Defines the Breadcrumb component item template. Here, context refers to the current Breadcrumb item.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.BreadcrumbTemplates.SeparatorTemplate">
@@ -47656,18 +47586,18 @@
         </member>
         <member name="T:Syncfusion.Blazor.Navigations.SfBreadcrumb">
             <summary>
-            Breadcrumb is a graphical user interface that help to identify or highlight the current location within a hierarchical structure of websites.
-            The aim is to aware the user where they stand now in a hierarchy of website links.
+            Breadcrumb is a graphical user interface that helps to identify or highlight the current location within a hierarchical structure of websites.
+            The aim is to make the user aware of their current position in a hierarchy of website links.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.Url">
             <summary>
-            Defines the URL based on which Breadcrumb items are generated.
+            Defines the URL based on which the Breadcrumb items are generated.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.Items">
             <summary>
-            Defines list of Breadcrumb item and that would be populated using tag directive.
+            Defines the list of Breadcrumb items that will be populated using the tag directive.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.ActiveItem">
@@ -47677,19 +47607,19 @@
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.MaxItems">
             <summary>
-            Specifes an integer to enable overflow behavior when the Breadcrumb items count exceeds and its based on OverflowMode property.
+            Specifies an integer to enable overflow behavior when the Breadcrumb items count exceeds and it is based on the OverflowMode property.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.OverflowMode">
             <summary>
             Specifies the overflow mode of the Breadcrumb item when it exceeds MaxItems count. The possible values are,
-            - Default: Specified MaxItems count is visible and remaing items are hidden. Hidden item will visible while click on previous item. 
-            - Collapsed: Specified MaxItems count is visible and remaing items are hidden with collapsed icon. When collapsed icon is clicked all items will be visible.
+            - Default: Specified MaxItems count will be visible and the remaining items will be hidden. While clicking on the previous item, the hidden item will become visible.
+            - Collapsed: Only the first and last items will be visible, and the remaining items will be hidden in the collapsed icon. When the collapsed icon is clicked, all items become visible.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.Width">
             <summary>
-            Specifies the width for Breadcrumb component container element. If the Breadcrumb items overflows, browser horizontal scroll will activated based on device.
+            Specifies the width for the Breadcrumb component container element. If the Breadcrumb items overflow, the browser’s horizontal scroll will be activated based on the device.
             </summary>
         </member>
         <member name="P:Syncfusion.Blazor.Navigations.SfBreadcrumb.HtmlAttributes">
